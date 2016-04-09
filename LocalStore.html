@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Local Storage</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+		<form>
+			<fieldset>
+				<legend>Your Details:</legend>
+				<label class="title" for="user">Your name:</label>
+				<input type="text" id="user"><br/>
+				<label class="title" for="age">Your age:</label>
+				<input type="text" id="age"><br/>
+				<p>
+					Gender:
+					<label><input type="radio" name="rating" value="Male" />Male</label>
+					<label><input type="radio" name="rating" value="Female" checked="checked" />Female</label>
+				</p>
+				<hr style="background:#637A91; border:0; height:3px" />
+				<legend>Contact Details:</legend>
+				<label class="title" for="mobile">Mobile number:</label>
+				<input type="text" id="mobile"><br/>
+				<label class="title" for="email">Your email:</label>
+			    <input type="email" id="email"><br/>
+				<input type="submit" id="submit" value="Submit" />
+			</fieldset>
+		</form>
+		<h1>Local Storage</h1>
+		<div id="control">
+		<button href="#" id="showForm">Add</button>
+		<button href="#" id="clearAll">Clear all</button></div>
+		<div id="db">
+        <table id="dbtable" >
+            <thead>
+                <tr>
+				    <th>Seq</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+					<th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+		</div>
+	<script src="js/jquery-1.8.3.js"></script>
+    <script src="js/store.js"></script>
+</body>
+</html>

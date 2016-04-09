@@ -1,0 +1,67 @@
+            body {
+				font-family: 'trebuchet MS', 'Lucida sans', Arial;
+				color: #666;
+				background: linear-gradient(rgba(200, 200, 200, 0.45),rgba(200, 200, 200, 0.45)),url(b18.png);
+				width: 960px;
+				margin: 0 auto;
+				padding-top: 20px;}
+			h1{
+				text-align: center;}
+            fieldset {
+				width:300px;
+				border: 1px solid #d6d6d6;
+				border-radius: 5px;
+				background-color: #DEB089;
+				line-height: 2.2em;
+				padding:10px 30px 30px 30px;
+				margin-left:300px;
+				margin-top:30px;}
+			legend {
+				font-style: italic;
+				color: #666;}
+			p{
+				margin-top: 0px;
+				margin-bottom: 10px;
+			}
+			input[type="text"],input[type="email"] {
+				width: 150px;
+				border: 1px solid #d6d6d6;
+				float:right;
+				padding: 2px;
+				margin-top: 6px;
+				outline: none;}
+			#submit {
+				float:right;
+				border-radius:10px;
+				border: none;
+				margin-top:10px;
+				padding: 5px 15px;
+				background-color:#cb6868;
+				color: #f3dad1;
+				text-transform: uppercase;}
+			button {
+				background-color: #cb6868;
+				color: #f3dad1;
+				border-radius: 8px;
+				border: none;
+				padding: 8px 10px;
+				text-transform: uppercase;}
+			table {
+				width: 960px;
+				border: 1px solid #d6d6d6;
+				border: none;
+				border-radius: 7px;
+				margin-top: 20px;}
+			th, td {
+				padding: 7px 10px 10px 10px;
+				text-align: center;
+				border: 1px solid #d6d6d6;
+				background-color: #e0e9f0;}
+			th {
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				text-align: center;
+				background-color: #A9DB80;}
+			#clearAll{
+				float:right;
+			}
