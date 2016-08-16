@@ -8,6 +8,8 @@ Use `git clone`
 ```
 git clone https://github.com/intajay/localstorage.git
 ```
+:information_source: If you don't have [git](https://git-scm.com/downloads) installed then [download]
+(http://github.com/intajay/localstorage/archive/master.zip) zip file
 #### Running localstorage
 ```
 cd localstorage
